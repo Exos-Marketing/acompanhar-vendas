@@ -1,0 +1,25 @@
+{
+  "name": "__NOME__",
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "dev": "slidev slides.md --port 3035 --open",
+    "build": "slidev build slides.md",
+    "export": "slidev export slides.md --output exports/__PDF__.pdf --wait 1500"
+  },
+  "dependencies": {
+    "@slidev/cli": "^52.15.0",
+    "@slidev/theme-seriph": "*",
+    "@slidev/theme-default": "*",
+    "@iconify-json/mdi": "^1.2.0",
+    "@iconify-json/heroicons": "^1.2.0",
+    "@iconify-json/carbon": "^1.2.0",
+    "@iconify-json/lucide": "^1.2.0",
+    "@iconify-json/tabler": "^1.2.0",
+    "@vueuse/motion": "^2.2.0",
+    "gsap": "^3.12.5"
+  },
+  "devDependencies": {
+    "playwright-chromium": "^1.49.0"
+  }
+}

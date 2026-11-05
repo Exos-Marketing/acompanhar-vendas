@@ -1,0 +1,47 @@
+{
+  "projeto": "[XX][TIPO][PRODUTO][MES][AA]",
+  "titulo": "Nome curto do projeto",
+  "expert": "Nome do Expert",
+  "produto": "Nome do produto vendido",
+  "fuso": "America/Sao_Paulo",
+  "plataformas": {
+    "voomp": {
+      "conta": "quem está logado no navegador da automação",
+      "produtos": {"000001": "avulso", "000002": "recorrência"},
+      "assinatura": [2],
+      "comercial": {"afiliados": [0]},
+      "coletar_desde": "AAAA-01-01"
+    },
+    "tmb": {
+      "conta": "usuário e central do portal",
+      "central_id": "",
+      "produtos": {"000003": "C/Comercial", "000004": "S/Comercial"},
+      "comercial": {"produtos": [3]},
+      "registros_ocultos": 0
+    }
+  },
+  "fases": [
+    {
+      "id": "F1",
+      "nome": "Fase 1 (base fechada)",
+      "conta_na_meta": false,
+      "ofertas": {"voomp": [0], "tmb": ["Título exato da oferta da fase 1"]}
+    },
+    {
+      "id": "F2",
+      "nome": "Fase 2",
+      "conta_na_meta": true,
+      "inicio": "AAAA-MM-DDTHH:MM:SS",
+      "fim": "AAAA-MM-DDTHH:MM:SS"
+    }
+  ],
+  "meta": {
+    "total": 0,
+    "acumulada": {},
+    "potencial_acumulado": {}
+  },
+  "calendario": {},
+  "entrega": {"clickup_canal_id": "", "clickup_canal_nome": ""},
+  "leituras": ["07:03", "22:03"],
+  "ignorar": []
+}
